@@ -1,0 +1,62 @@
+/* 鼠标经过图片放大,出现圆角 */
+body{
+	overflow-x: hidden;
+}
+.jiaod{
+	background-color: orange;
+}
+hr.min{
+	border-top:1px solid #2AABD2;
+}
+div.twjg img{
+	 width:66rem; 
+	 height:12rem;
+}
+.img img:hover{
+	transform: scale(1.1);/* transform的变换，可多个方面：缩放，旋转，坐标 */
+	transition: transform 0.5s ease-in 1ms;/* 过渡 */
+	border-radius: 10px;
+}
+div#mid{
+	 padding: 8px;
+	 border: #28A4C9 2px solid;
+	 border-radius: 0.5rem;
+}
+div#mid h3{
+	 line-height: 5rem;
+	 background-color: #269ABC;
+	 border-radius: 0.4rem;
+}
+ul.lista li{
+	height: 200px;
+	margin-top: 1.3rem;
+	border-radius: 0.4rem;
+	background-color: gainsboro;
+}
+ul.lista a{
+	/* text-decoration:underline; */
+	color: black;
+}
+ul.lista img{
+	border-radius: 0.4rem;
+	width: 16rem;
+	height: 12.8rem;
+}
+.dz{
+	color: #D58512;
+}
+p.pare input{
+	margin-left: 0.875rem;
+}
+p.pare{
+	margin-bottom: 0.75rem;
+	line-height: 6rem;
+	border: 1px black solid;
+}
+div#tw img{
+	width: 36rem;
+	height: 20rem;
+}
+footer p,footer a{
+	color: orange;
+}
